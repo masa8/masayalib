@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "masayalib", "masayalib\masayalib.vcproj", "{18C4B9D9-C0BF-4C91-AC24-D253FEBE53E0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "masayalib_test", "masayalib_test\masayalib_test.vcproj", "{B4AD7FE4-9DA1-4288-9DF3-920052303F6A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{18C4B9D9-C0BF-4C91-AC24-D253FEBE53E0} = {18C4B9D9-C0BF-4C91-AC24-D253FEBE53E0}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18C4B9D9-C0BF-4C91-AC24-D253FEBE53E0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{18C4B9D9-C0BF-4C91-AC24-D253FEBE53E0}.Debug|Win32.Build.0 = Debug|Win32
+		{18C4B9D9-C0BF-4C91-AC24-D253FEBE53E0}.Release|Win32.ActiveCfg = Release|Win32
+		{18C4B9D9-C0BF-4C91-AC24-D253FEBE53E0}.Release|Win32.Build.0 = Release|Win32
+		{B4AD7FE4-9DA1-4288-9DF3-920052303F6A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B4AD7FE4-9DA1-4288-9DF3-920052303F6A}.Debug|Win32.Build.0 = Debug|Win32
+		{B4AD7FE4-9DA1-4288-9DF3-920052303F6A}.Release|Win32.ActiveCfg = Release|Win32
+		{B4AD7FE4-9DA1-4288-9DF3-920052303F6A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
